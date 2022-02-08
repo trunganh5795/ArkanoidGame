@@ -118,19 +118,19 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"images/ball.png":[function(require,module,exports) {
-module.exports = "/ball.96931fde.png";
+module.exports = "./ball.96931fde.png";
 },{}],"images/paddle.png":[function(require,module,exports) {
-module.exports = "/paddle.f48d929a.png";
+module.exports = "./paddle.f48d929a.png";
 },{}],"images/brick-red.png":[function(require,module,exports) {
-module.exports = "/brick-red.c1be1822.png";
+module.exports = "./brick-red.c1be1822.png";
 },{}],"images/brick-blue.png":[function(require,module,exports) {
-module.exports = "/brick-blue.695b92f9.png";
+module.exports = "./brick-blue.695b92f9.png";
 },{}],"images/brick-green.png":[function(require,module,exports) {
-module.exports = "/brick-green.e573ebf2.png";
+module.exports = "./brick-green.e573ebf2.png";
 },{}],"images/brick-yellow.png":[function(require,module,exports) {
-module.exports = "/brick-yellow.eff6b86b.png";
+module.exports = "./brick-yellow.eff6b86b.png";
 },{}],"images/brick-purple.png":[function(require,module,exports) {
-module.exports = "/brick-purple.088683b7.png";
+module.exports = "./brick-purple.088683b7.png";
 },{}],"setup.ts":[function(require,module,exports) {
 "use strict";
 
@@ -795,7 +795,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54537" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53433" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
